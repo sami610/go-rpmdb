@@ -1,6 +1,6 @@
 module github.com/knqyf263/go-rpmdb
 
-go 1.18
+go 1.19
 
 require (
 	github.com/hashicorp/go-multierror v1.1.1
