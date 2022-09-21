@@ -1,16 +1,17 @@
 module github.com/knqyf263/go-rpmdb
 
-go 1.18
+go 1.19
 
 require (
 	github.com/hashicorp/go-multierror v1.1.1
-	github.com/stretchr/testify v1.7.0
-	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2
+
+	github.com/stretchr/testify v1.8.0
+	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
 	modernc.org/sqlite v1.19.1
 )
 
 require (
-	github.com/davecgh/go-spew v1.1.0 // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/hashicorp/errwrap v1.0.0 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
@@ -20,7 +21,7 @@ require (
 	golang.org/x/mod v0.3.0 // indirect
 	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab // indirect
 	golang.org/x/tools v0.0.0-20201124115921-2c860bdd6e78 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/uint128 v1.1.1 // indirect
 	modernc.org/cc/v3 v3.38.1 // indirect
 	modernc.org/ccgo/v3 v3.16.9 // indirect
